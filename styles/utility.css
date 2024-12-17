@@ -58,6 +58,11 @@
     display: grid;
 }
 
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
 @media (width >= 80em) {
     .container {
         --max-width: 80rem;
